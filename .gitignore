@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook - Cell outputs and checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+!*.ipynb
+# Jupyter outputs in notebooks
+.jupyter/
+jupyter_*
+nbconvert_*
+
+# Jupyter exported files
+*.html
+*.pdf
+!README.pdf
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# ChromaDB and Vector Store
+chroma_db/
+vector_store/
+*.db
+*.sqlite
+*.sqlite3
+
+# LangChain cache
+.langchain_cache/
+langchain_cache/
+
+# Data files (keep only processed ones if needed)
+*.csv.bak
+*.csv.tmp
+data/raw/
+data/temp/
+
+# Gradio outputs
+gradio_cached_examples/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.~*
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+.fleet/
+
+# Mac
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Output files
+output/
+outputs/
+results/
+temp/
+tmp/
+
