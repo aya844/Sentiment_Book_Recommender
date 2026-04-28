@@ -53,7 +53,7 @@ This project builds an end-to-end book recommendation pipeline that combines:
 ## Getting Started
 
 ```bash
-git clone 
+git clone https://github.com/aya844/Sentiment_Book_Recommender
 cd llm-semantic-book-recommender
 pip install -r requirements.txt
 jupyter notebook
